@@ -1,0 +1,6 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Douglas Waugh
+	email = douglas.waugh.e3@gmail.com 
+[core]
+	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
