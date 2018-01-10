@@ -1,0 +1,5 @@
+alias e='explorer .'
+alias gs='git status'
+alias gd='git diff'
+alias gg='git log --oneline --decorate --graph'
+alias sublime='sublime_text '

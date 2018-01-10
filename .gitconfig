@@ -4,3 +4,28 @@
 	email = douglas.waugh.e3@gmail.com 
 [core]
 	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
+	editor = vi
+	autocrlf = true
+[credential]
+	helper = !\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-winstore.exe\"
+[user]
+	name = Douglas Waugh
+	email = douglas.waugh@energyhelpline.com
+[gui]
+[pager]
+    diff = diff-highlight | less -FRSX
+    show = diff-highlight | less -FRSX
+[push]
+	default = simple
+[diff]
+    tool = p4merge
+[merge]
+    tool = p4merge
+[mergetool "p4merge"]
+    trustExitCode = true
+[mergetool]
+    keepBackup = false
+[difftool]
+    prompt = false	
+[alias]
+	gs = status
