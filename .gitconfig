@@ -3,7 +3,7 @@
 	name = Douglas Waugh
 	email = douglas.waugh.e3@gmail.com 
 [core]
-	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
+	pager = ~/bin/diff-highlight | less
 	editor = vi
 	autocrlf = true
 [credential]
